@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    display: inline;
+    margin: 0 0;
+}
+nav {
+    display: flex;
+    background-color: black;
+    opacity: 0.87;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 30;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 60%;
+    justify-content: space-between;
+}
+
+nav a{
+    font-family: 'Balsamiq Sans';
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(182, 162, 52);
+}
+nav a:hover{
+    color: rgb(182, 162, 52);
+    text-shadow: 0 0 8px rgb(231, 235, 21);;
+}
+.menu-bar {
+    display: none;
+    flex-direction: column;
+    height: 25px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.menu-bar span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: rgb(182, 162, 52);
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+#Home {
+    background-image: url(image/a1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+#Cakes {
+    background-image: url(image/a2.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#Bread {
+    background-image: url(image/a3.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#Kue {
+    background-image: url(image/a4.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#Others {
+    background-image: url(image/a5.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content1{
+    height: fit-content;
+    width: 50%;
+    text-align: center;    
+}
+.content1 h1{
+    margin: 0;
+    font-family: 'Kaushan Script';
+    font-size: 80px;
+    color:black;
+    text-shadow: 0 1px 5px yellow;
+    padding: 120px 25px 20px 25px;
+    line-height: 1.3;
+}
+.content1 p {
+    margin: 0;
+    font-family: 'Architects Daughter';
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 3px 0 black;
+    padding: 40px 60px 50px 60px;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Emilys Candy';
+    font-weight: bold;
+    color: rgb(32, 10, 3);
+    text-shadow: 0 0 7px rgb(255, 238, 5);
+    font-size: 65px;
+    letter-spacing: 2px;
+    padding-top: 80px;
+}
+
+*{
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    margin: 0 100px;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.box {
+    flex-grow: 1;
+    border: 6px solid rgb(61, 45, 6);
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    text-align: center;
+    font-weight: 800;
+    color:rgb(61, 45, 6);
+    font-size: 1.5em;
+    border-radius: 100px;
+    margin: 20px 20px;
+    height: 450px;
+}
+.oth {
+    height: 350px;
+}
+.produk-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 80px;
+}
+.harga {
+    margin: 0 20px;
+    border: 2px solid rgb(182, 162, 52);
+    background-color: black;
+    color: rgb(182, 162, 52);
+    border-radius: 100px;
+}
+.harga:hover {
+    box-shadow: 0 0 30px 1px rgb(216, 190, 41);
+}
+.lastrow {
+    padding-bottom: 60px;
+}
+
+#About{
+    background-image: url(image/a6.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about {
+    padding: 30px;
+    overflow: auto;
+}
+
+.cerita p{
+    width: 100%;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 10px 20px;
+}
+.cerita ul{
+    padding: 15px 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+}
+.cerita img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+.card {
+    box-shadow: 0 0 20px 5px rgb(182, 162, 52);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.biodata{
+    text-align: center;
+    padding: 10px 30px;
+    border: 7px solid rgb(61, 45, 6) ;
+    background-color: rgb(196, 177, 68);
+}
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 15px;
+}
+section ul {
+    width: fit-content;
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
+    font-size: 18px;
+}
+section li{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 0;
+}
+.fotodiri {
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px;
+}
+.cerita {
+    float: left;
+    width: 75%;
+    background-color: whitesmoke;
+}
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 40px;
+}
+
+footer{
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(182, 162, 52);
+    background-color: black;
+    text-align: center;
+    font-weight: 50;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(182, 162, 52);
+}
+footer a:hover{
+    color: rgb(182, 162, 52);
+    text-shadow: 0 0 8px rgb(231, 235, 21);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1025px){
+    nav ul {
+        width: 90%;
+    }
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+    .cerita {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cerita ul {
+        width: 100%;
+        display: block;
+        text-align: center ;
+    }
+    .oth {
+    height: fit-content;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .menu-bar {
+        display: flex;
+    }
+    
+    nav ul {
+        position: absolute;
+        right: 0px;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.95);
+        border-bottom-left-radius: 50px;
+        height: 90vh;
+        flex-direction: column;
+        text-align: center;
+        padding: 3vh;
+        justify-content: space-evenly;
+        width: 40%;
+        z-index: -1;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    nav ul.slidemenu{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    .line span:nth-child(1) {
+        transform-origin: 0 0;
+        transform: rotate(45deg) translate(5px,-5px);
+        box-shadow: 0 0 20px 1px rgb(216, 190, 41);
+    }
+    .line span:nth-child(2) {
+        opacity: 0;
+    }
+    .line span:nth-child(3) {
+        transform-origin: 0 100%;
+        transform: rotate(-45deg) translate(5px,5px);
+        box-shadow: 0 0 20px 1px rgb(216, 190, 41);
+    }
+
+    .content1{
+        height: fit-content;
+        width: 100%;
+        text-align: center;    
+    }
+    .content1 h1 {
+        font-size: 70px;
+        color: black;
+        text-shadow: 0 1px 5px yellow;
+    }
+    .content1 p {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    .flex-row {
+        margin: 0;
+    }
+        
+}
+
+@media (min-width: 400px) and (max-width: 1025px){
+    aside {
+        width: 100%;
+        padding: 0;
+    } 
+    section ul {
+        width: 100%;
+        text-align: center;
+    }
+}
